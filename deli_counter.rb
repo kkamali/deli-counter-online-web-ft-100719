@@ -1,6 +1,5 @@
 def line(people)
-  puts people
-  if people == 0 
+  if people == nil 
     puts "The line is currently empty."
   end
 end
