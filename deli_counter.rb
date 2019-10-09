@@ -1,2 +1,2 @@
-def line
+def line(people)
 end
