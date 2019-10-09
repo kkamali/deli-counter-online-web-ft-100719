@@ -3,6 +3,6 @@ def line(people)
     puts "The line is currently empty."
   else 
     print "The line is currently:"
-    people.each_with_index{|person, index| print " #{index}. #{person}" }
+    people.each_with_index{|person, index| print " #{index + 1}. #{person}" }
   end
 end
